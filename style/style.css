@@ -2,18 +2,7 @@ body{
     background-image: url("/media/Buttons/fondo.jpg");
 }
 
-#play{
-
-}
-
-#score{
-
-}
-
-#life{
-
-}
-
-#controls{
-    
+#h1{
+    color:  #00e39a;
+    font-size: 18px;
 }
