@@ -15,27 +15,17 @@ body{
     background-color:#A9A9A9;
 }
 
-#play{
+
+#title{
     position: relative;
-    text-align: center;
-    height: 100px;
-    width: 150px;
-    padding: 3px;
-    margin-top: 5%;
-    margin-right: 5%;
-    float: right;
+    height: 275px;
 }
 
-#playbutton{
-    margin-top: 15px;
-}
-
-#score{
-
-}
-
-#life{
-
+h1{
+    margin-left: 30%;
+    font-family: font;
+    font-size: 57px;
+    color: black;
 }
 
 #controls{
@@ -57,18 +47,6 @@ body{
     margin-top: 15px;
     height: 70px;
     width: 100px;
-}
-
-#title{
-    position: relative;
-    height: 275px;
-}
-
-h1{
-    margin-left: 30%;
-    font-family: font;
-    font-size: 57px;
-    color: black;
 }
 
 p{
