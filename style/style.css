@@ -1,7 +1,8 @@
 /*#00e29a ->color play */
+
 @font-face {
-    font-family: font;
-    src: url(media/Fonts/font.ttf);
+    font-family: raidercrusader;
+    src: url(media/Fonts/raidercrusader.ttf);
   }
 
 #container{
@@ -17,26 +18,24 @@ body{
 
 
 #title{
-    position: relative;
-    height: 275px;
+    
 }
 
 h1{
-    margin-left: 30%;
-    font-family: font;
+    font-family: raidercrusader;
     font-size: 57px;
     color: black;
+    margin-left: 34%;
+    margin-top: 27%;
 }
 
 #controls{
-    position: relative;
-    text-align: center;
     height: 100px;
     width: 150px;
     padding: 10px;
-    margin-top: 0%;
-    margin-right: 10%;
-    float: left;
+    margin-left: 5%;
+    margin-top: -27%;
+    
 }
 
 #imgcontrols{
@@ -44,14 +43,55 @@ h1{
     width: 100px;
 }
 #imgspacebar{
-    margin-top: 15px;
+    margin-top: 25px;
     height: 70px;
     width: 100px;
+}
+
+#score{
+    margin-top: -24%;
+    float: right;
+    font-size: 36px;
+    width: 140px;
+    height: 50px;
+}
+
+#imgscore{
+    
+    margin-left: 79%;
+    margin-top: -25%;
+    
+}
+
+#life{
+    margin-top: -17%;
+    float: right;
+    font-size: 36px;
+    width: 180px;
+    height: 50px;
+}
+
+#imglife{
+    
+    margin-left: 79%;
+    margin-top: -18%;
+    
 }
 
 p{
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+#sinopsis{
+    margin-top: 15%;
+}
+
+#sinopsisgame{
+    text-align: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 3%;
 }
 
 footer{

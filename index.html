@@ -1,28 +1,46 @@
 <html>
-  <head>
-    <script src="lib/p5.js" type="text/javascript"></script>
-    <script src="lib/p5.play.js" type="text/javascript"></script> 
-    <script src="lib/MacroBlast.js" type="text/javascript"></script>
-    <script src="config/config.json" type="text/json"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.js" type="text/javascript"></script>
-    <script src="lib/p5.sound.js" type="text/javascript"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-  
-  </head>
-  <body>
-    
-    <div id="title">
-      <h1>MacrophageBlast</h1>
-    </div>
 
-    <div id="score"></div>
-    
-    <div id="controls">
-      <img id="imgcontrols" src="media/Buttons/controls.png" width="150px">
-      <img id="imgspacebar" src="media/Buttons/spacebar.png" width="150px">
-    </div >
-   
+<head>
+  <script src="lib/p5.js" type="text/javascript"></script>
+  <script src="lib/p5.play.js" type="text/javascript"></script>
+  <script src="lib/MacroBlast.js" type="text/javascript"></script>
+  <script src="config/config.json" type="text/json"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.js" type="text/javascript"></script>
+  <script src="lib/p5.sound.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+
+</head>
+
+<body>
+
+  <div id="title">
+    <h1>MacrophageBlast</h1>
+  </div>
+
+  <img id="imgscore" src="media/Buttons/score.png" width="140px">
+  <div id="score">
+   10000
+  </div>
+
+  <img id="imglife" src="media/Buttons/life.png" width="100px">
+  <div id="life">
+  10000
+  </div>
+
+  <div id="controls">
+    <img id="imgcontrols" src="media/Buttons/controls.png" width="150px">
+    <img id="imgspacebar" src="media/Buttons/spacebar.png" width="150px">
+  </div>
+
+  <div id="sinopsis">
+    <p id="sinopsisgame">The macrophage is a cell of our body that is responsible for the cleaning of all the strange
+      bodies that are introduced into the organism, as bacteria.
+
+      At the beginning you have 3 lives. Each time a round finishes increasing lives, shooting distance and more enemies
+      appear. The more lives you have, the more punctuation you score on your score.</p>
+
+  </div>
 
   <footer>
     <p> © 2019 MacrophageBlast / Pau Grau i Anna Canivell</p>
