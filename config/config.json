@@ -1,4 +1,6 @@
 {
     "BadCells": 10,
-    "LifeRespawns": 3
+    "LifeRespawns": 3,
+    "bRatio":15,
+    "bLifeSpan":15
 }
